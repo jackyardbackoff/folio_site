@@ -1,0 +1,16 @@
+body {
+    background-color:black;
+    color:white;
+}
+
+p {
+    font-weight:bold;
+}
+
+h1 {
+    font-size:small;
+}
+
+.status {
+    font-weight:normal;
+}
