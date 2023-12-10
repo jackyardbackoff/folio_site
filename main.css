@@ -1,6 +1,6 @@
 body {
     background-color:#111111;
-    color:white;
+    color:#EEEEEE;
     margin:0px 15%;
     line-height:1.6;
 }
@@ -20,7 +20,7 @@ body {
     margin-left:10%;
     padding-right:115px;
     text-decoration:none;
-    color:white;
+    color:#EEEEEE;
     font-size:xx-large;
     font-weight:bold;
 }
@@ -52,5 +52,28 @@ body {
         -3px -3px 2px #000;
     padding-bottom:5px;
     text-align:center;
+}
+
+.footer {
+    padding:50px 0px 20px;
+    text-align:center;
+}
+
+.footer_btm {
+    margin: 10px 0px 50px;
+    display:grid;
+    grid-template-columns: auto auto;
+}
+
+.contact_info {
+    display:grid;
+    grid-template-columns:auto;
+    grid-auto-flow:column;
+}
+
+.contact_info a {
+    text-decoration:none;
+    font-size:normal;
+    color: #EEEEEE;
 }
 
